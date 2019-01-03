@@ -2,4 +2,4 @@
  - name: check if there is free space on destination machines in {{home_dir}} (at least {{free_space_needed}} GB)
    shell: ssh -T {{remote_user}}@{{ item.target_ip }} 'exit $((`df -m {{home_dir}} | tail -1 | tr -s " " | cut -d" " -f 4`<={{free_space_needed}}))'
    with_items: "{{ nodes }}"
-   changed_when: False
+   changed_when: True
