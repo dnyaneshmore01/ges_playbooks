@@ -1,6 +1,6 @@
 - hosts: all
   gather_facts: false
   vars:
-    free_space_needed:68387 
+    free_space_needed: 68387 
   roles:
     - space_check
