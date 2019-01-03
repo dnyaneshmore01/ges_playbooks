@@ -4,4 +4,4 @@
   vars:
     free_space_needed: 68387 
   roles:
-    - /home/dmore/Downloads/ges_playbooks/roles/space_check/tasks
+    -/home/dmore/Downloads/ges_playbooks/roles/space_check/tasks
