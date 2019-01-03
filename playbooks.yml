@@ -3,4 +3,4 @@
   vars:
     space_available: 200
   roles:
-    - /home/dmore/Downloads/ges_playbooks/playbooks/space_check/
+    - space_check
