@@ -1,0 +1,6 @@
+- hosts: all
+  gather_facts: false
+  vars:
+    space_availale: 200
+  roles:
+    - space_check
